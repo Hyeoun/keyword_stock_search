@@ -36,4 +36,8 @@ def get_stocks(keyword:str) -> list[str]:
     """키워드와 대응되는 종목 리스트를 반환합니다."""
     return DATAS[keyword]
 
+def get_keywords() -> list[str]:
+    """키워드들을 리스트의 형태로 반환합니다."""
+    return list(DATAS.keys())
+
 reset_keywords_stocks()

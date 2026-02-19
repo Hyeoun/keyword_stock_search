@@ -1,1 +1,1 @@
-from .core import reset_keywords_stocks, get_stocks
+from .core import reset_keywords_stocks, get_stocks, get_keywords
