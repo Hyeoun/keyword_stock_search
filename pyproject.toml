@@ -1,0 +1,15 @@
+[project]
+name = "keyword_stock_search"
+version = "0.1.0"
+description = "파이썬 키워드 기반 연관 주식 반환 라이브러리"
+license = {text = "MIT"}
+authors = [
+    {name = "Hyeoun", email = "ing02084@naver.com"}
+]
+dependencies = [
+    "requests>=2.32.5",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
