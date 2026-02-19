@@ -15,7 +15,7 @@ pip install -U git+https://github.com/Hyeoun/keyword_stock_search.git
 
 # 사용 예제
 ### 키워드 목록 리셋
-라이브러리 실행 시 최소 1회는 자동으로 다운로드 되지만 이후 변동되는 사항에 대해서는 사용자가 직접 다운로드 해야 합니다.
+라이브러리 실행 시 최초 1회는 자동으로 다운로드 되지만 이후 변동되는 사항에 대해서는 사용자가 직접 다운로드 해야 합니다.
 ```
 import keywordstk as kss
 
